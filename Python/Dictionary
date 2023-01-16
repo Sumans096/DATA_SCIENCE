@@ -1,0 +1,18 @@
+# Initialize a dictionary "emp_info" with below details
+# In - emp_info['Tom']
+# Out - {'email':'tom_latham019@gmail.com', 'Phone': +1987654321, 'City': 'California'}
+
+# In - emp_info['Kathy']
+# Out - {'email':'kathy_abram897@gmail.com', 'Phone': +1887654321, 'City': 'New York'}
+
+
+dict = {'suman':{'email':'sumansourabh096@gmail.com', 'phone':8294446839, 'city':'california'}, 'Tom':{'email':'tom_latham019@gmail.com', 'phone':+1987654321, 'city':
+                'california'}, 'kathy':{'email':'kathy_abram897@gmail.com', 'Phone': +1887654321, 'City': 'New York'},
+        'shekhar': {'email':'sumanshekhar17.4@gmail.com', 'phone':8239400233, 'country':'America'} }
+output = dict['suman']
+print(output)
+
+output1 = dict['Tom']
+print(output1)
+
+
