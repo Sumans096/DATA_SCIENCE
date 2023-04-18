@@ -22,8 +22,6 @@ def print_board(xstate,zstate):
     print(f'{three}|{four}|{five}')
     print(f'-|-|-')
     print(f'{six}|{seven}|{eight}')
-# pass --  jab bhi hume pata nahi ho code lekhne k peeche ka logic aur uske wajha s programme run nahi kar raha hai 
-# then aur humchahte hai wapas aa kar lekhenge then pass lekh dene s programme bina rukhe run karne lagega 
 
 
 
@@ -39,8 +37,8 @@ def checkwin(xstate,zstate):
     return -1
 
 
-if __name__ == "__main__":   # __ ka matlab hota hai ki jab bhi import ho raha hai ye wala programme then sirf iske function import ho rahe 
-                             # code execute nahi ho rahe hai
+if __name__ == "__main__":   # It means that whenever this program is being imported, only its functions are being imported, the code is not being executed.
+       
     xstate = [0,0,0,0,0,0,0,0,0]
     zstate = [0,0,0,0,0,0,0,0,0]
     turn = 1 # 1 for X and 0 for O
